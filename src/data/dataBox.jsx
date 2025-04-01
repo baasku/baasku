@@ -1,45 +1,56 @@
-
-export const dataBox=[
-    // talkh
-      [
-        {
-          "img": "src/assets/talkh.png",
-          "price": "2,888₮",
-          "name": "ТАЛХ ЗА 350ГР",
-          "type": "Олон үртэй хөх тарианы зүссэн MNG"
-        },
-        {
-          "img": "src/assets/talhza.png",
-          "price": "2,678₮",
-          "name": "ТАЛХ ЗА",
-          "type": "350гр Цөцгийтэй чихэргүй зүссэн MN..."
-        },
-        {
-          "img": "src/assets/burger.png",
-          "price": "9,269₮",
-          "name": "ХАТААСАН ТАЛХ BURGER",
-          "type": "Das Landnaecke 250гр 6 төрөл DEU"
-        }
-      ],
-      // nariin boow
-      [
-        {
-          "img": "src/assets/guzeelzgene.png",
-          "price": "4,898₮",
-          "name": "НАРИЙН БООВ ГҮЗҮҮЛЗГЭНЭ",
-          "type": "рулет 80гр жимс сүүн кремтэй амтлаг..."
-        },
-        {
-          "img": "src/assets/crem.png",
-          "price": "3,698₮",
-          "name": "НАРИЙН БООВ КРЕМ",
-          "type": "70гр крем шаржигнуур кекстэй..."
-        },
-        {
-          "img": "ice.png",
-          "price": "4,868₮",
-          "name": "НАРИЙН БООВ АЙС",
-          "type": "брэйд 100гр сүү сүүн кремтэй амтлаг"
-        }
-      ]
-    ]
+import Plus15 from "./15Plus.png";
+ import Pro15 from "./15Promax.png";
+ import Plus16 from "./16plus.png";
+ import Pro16 from "./16promax.png";
+ import S24256 from "./S24Ultra256.png";
+ import S24512 from "./S24Ultra512.png";
+ import Z256 from "./ZFOLD6256.png";
+ import Z512 from "./ZFOLD6512.png";
+ export const data = [
+   // samsung
+   [
+     {
+       img: S24256,
+       price: "5,499,900₮",
+       name: "Samsung Galaxy Z Fold6 512gb",
+     },
+     {
+       img: S24512,
+       price: "4,999,900₮",
+       name: "Samsung Galaxy Z Fold6 256gb",
+     },
+     {
+       img: Z256,
+       price: "4,499,900₮",
+       name: "Samsung S24 Ultra 12GB 512GB",
+     },
+     {
+       img: Z512,
+       price: "4,299,900₮",
+       name: "Samsung S24 Ultra 12GB+256GB",
+     },
+   ],
+   // apple
+   [
+     {
+       img: Pro15,
+       price: "4,599,900₮",
+       name: "Apple iPhone 15 Plus 128Gb",
+     },
+     {
+       img: Plus15,
+       price: "4,599,900₮",
+       name: "Apple iPhone 15 Promax 256Gb",
+     },
+     {
+       img: Pro16,
+       price: "5,879,000₮",
+       name: "Apple iPhone 16 pro max",
+     },
+     {
+       img: Plus16,
+       price: "4,319,000₮",
+       name: "Apple iPhone 16 Plus 128GB",
+     },
+   ],
+ ];
